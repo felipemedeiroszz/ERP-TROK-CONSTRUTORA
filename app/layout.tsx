@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'TROX — Gestão de Construção',
-  description: 'Gestão financeira e operacional dos projetos da TROX Five-Star Construction Corp.',
+  title: 'TROY — Gestão de Construção',
+  description: 'Gestão financeira e operacional dos projetos da TROY Five-Star Construction Corp.',
   generator: 'v0.app',
   manifest: '/manifest.webmanifest',
   icons: {

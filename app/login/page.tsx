@@ -33,7 +33,7 @@ export default function LoginPage() {
     <main className="auth-split-shell">
       <div className="auth-split-left">
         <div className="auth-split-logo">
-          <Image src="/trox-logo.png" alt="TROX Five-Star Construction Corp" width={160} height={92} priority />
+          <Image src="/troy-logo.png" alt="TROY Five-Star Construction Corp" width={160} height={92} priority />
         </div>
         <div className="auth-split-overlay" />
         <div className="auth-split-content">
