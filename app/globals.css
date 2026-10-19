@@ -234,3 +234,13 @@ button:disabled { cursor: not-allowed; opacity: .55; }
 @media (max-width: 700px) { .page-content { padding-inline: 14px; }.page-heading { align-items: stretch; flex-direction: column; }.heading-actions { width: 100%; }.heading-actions > * { flex: 1; justify-content: center; }.metric-grid { gap: 10px; }.metric-card { min-height: 122px; padding: 15px; }.metric-value { font-size: 22px; }.panel-header { flex-direction: column; }.panel-header > * { max-width: 100%; }.inline-form, .asset-form-grid, .property-form, .expense-form, .revenue-form, .schedule-form { grid-template-columns: 1fr; padding: 12px; }.expense-card { grid-template-columns: 48px minmax(0, 1fr); }.expense-thumb { width: 48px; height: 48px; }.expense-amount { grid-column: 2; }.asset-tabs { margin-inline: -4px; }.record-table { min-width: 680px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
 
+/* Documentos (Invoice): status de pagamento */
+.status.document-paid, .status.document-unpaid { border: 0; cursor: pointer; transition: border-color .16s ease, background .16s ease, color .16s ease; }
+.status.document-paid { color: #63c995; background: #1e3529; }
+.status.document-unpaid { color: #d9bd7f; background: #322b1e; }
+.status.document-paid:hover, .status.document-unpaid:hover { filter: brightness(1.22); }
+.document-paid-choice { display: flex; gap: 8px; margin-top: 7px; }
+.document-paid-option { flex: 1; padding: 9px 10px; border: 1px solid var(--line-soft); border-radius: 9px; background: rgba(255,255,255,.02); color: var(--text-muted); font-weight: 600; font-size: 12px; cursor: pointer; }
+.document-paid-option:hover { border-color: var(--line-gold); color: #d9bd7f; }
+.document-paid-option-active { border-color: var(--line-gold); background: var(--accent-soft); color: #e6d3a6; }
+
