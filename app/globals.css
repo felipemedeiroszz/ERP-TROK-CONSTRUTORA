@@ -79,6 +79,8 @@ button { cursor: pointer; }
 .document-category-modal h2 { margin: 7px 0 5px; color: #f1efeb; font-size: 18px; letter-spacing: -.3px; }
 .document-category-modal p { margin: 0; color: #85838a; font-size: 11px; }
 .modal-field { display: flex; flex-direction: column; gap: 7px; margin-top: 22px; color: #aaa8a5; font-size: 10px; font-weight: 600; }
+.modal-field-period { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+.modal-field-period .modal-field { margin-top: 22px; }
 .document-category-modal .form-actions { margin-top: 22px; }
 .document-category-modal .button-primary:disabled { cursor: not-allowed; opacity: .45; }
 ::-webkit-scrollbar { width: 8px; height: 8px; } ::-webkit-scrollbar-track { background: #101012; } ::-webkit-scrollbar-thumb { border: 2px solid #101012; border-radius: 8px; background: #39383c; }
