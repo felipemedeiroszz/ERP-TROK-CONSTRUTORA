@@ -3,13 +3,17 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'TROX — Gestão de Construção',
-  description: 'Gestão financeira e operacional dos projetos da TROX Five-Star Construction Corp.',
+  title: 'Troy — Gestão de Construção',
+  description: 'Gestão financeira e operacional dos projetos da Troy Five-Star Construction Corp.',
   generator: 'v0.app',
   manifest: '/manifest.webmanifest',
   icons: {
-    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-8yvU4RZg0ulwNnpVjbmpjXbcvD6MMb.png',
-    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-8yvU4RZg0ulwNnpVjbmpjXbcvD6MMb.png',
+    icon: [
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    shortcut: '/icon-192.png',
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
   },
 }
 

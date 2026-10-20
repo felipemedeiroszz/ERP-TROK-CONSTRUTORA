@@ -1,4 +1,4 @@
--- Schema principal do sistema de gestão financeira da Trox.
+-- Schema principal do sistema de gestão financeira da Troy.
 -- Todas as tabelas são isoladas por dono (owner_id = auth.uid()) via RLS.
 -- Migração idempotente: pode ser aplicada mais de uma vez com segurança.
 
