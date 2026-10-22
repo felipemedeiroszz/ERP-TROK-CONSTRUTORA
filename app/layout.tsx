@@ -8,12 +8,9 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   manifest: '/manifest.webmanifest',
   icons: {
-    icon: [
-      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
-    ],
-    shortcut: '/icon-192.png',
-    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+    icon: [{ url: '/icon-180.png', sizes: '180x180', type: 'image/png' }],
+    shortcut: '/icon-180.png',
+    apple: [{ url: '/icon-180.png', sizes: '180x180', type: 'image/png' }],
   },
 }
 
