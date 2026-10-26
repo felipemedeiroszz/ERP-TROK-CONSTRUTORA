@@ -83,6 +83,17 @@ button { cursor: pointer; }
 .modal-field-period .modal-field { margin-top: 22px; }
 .document-category-modal .form-actions { margin-top: 22px; }
 .document-category-modal .button-primary:disabled { cursor: not-allowed; opacity: .45; }
+.confirm-dialog { width: min(420px, calc(100vw - 32px)); padding: 26px 24px; border: 1px solid rgba(201,164,92,.28); border-radius: 16px; background: linear-gradient(145deg,#20242c,#121419); box-shadow: 0 28px 90px rgba(0,0,0,.58); text-align: center; animation: drawer-fade .18s ease; }
+.confirm-dialog-icon { width: 48px; height: 48px; display: grid; place-items: center; margin: 0 auto 14px; border: 1px solid rgba(225,138,139,.4); border-radius: 50%; color: #eb9496; background: rgba(225,138,139,.12); }
+.confirm-dialog h2 { margin: 0 0 8px; color: #f1efeb; font-size: 17px; letter-spacing: -.3px; }
+.confirm-dialog p { margin: 0; color: #8e8c93; font-size: 12px; line-height: 1.55; }
+.confirm-dialog .form-actions { display: flex; justify-content: center; gap: 10px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line-soft); }
+.confirm-dialog .form-actions .button-danger, .confirm-dialog .form-actions .button-secondary { min-width: 128px; justify-content: center; }
+.button-danger { display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 13px; border: 1px solid rgba(225,138,139,.5); border-radius: 7px; color: #f3b0b0; background: rgba(225,138,139,.14); font-size: 11px; font-weight: 600; cursor: pointer; transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
+.button-danger:hover { transform: translateY(-1px); border-color: rgba(225,138,139,.72); background: rgba(225,138,139,.24); }
+.account-edit-modal { width: min(520px, calc(100vw - 32px)); }
+.account-edit-modal .project-form { margin-top: 18px; }
+.account-edit-modal label { display: grid; gap: 7px; color: #aaa8a5; font-size: 10px; font-weight: 600; }
 ::-webkit-scrollbar { width: 8px; height: 8px; } ::-webkit-scrollbar-track { background: #101012; } ::-webkit-scrollbar-thumb { border: 2px solid #101012; border-radius: 8px; background: #39383c; }
 
 @theme inline { --color-background: var(--background); --color-foreground: var(--foreground); --color-card: var(--card); --color-card-foreground: var(--card-foreground); --color-popover: var(--popover); --color-popover-foreground: var(--popover-foreground); --color-primary: var(--primary); --color-primary-foreground: var(--primary-foreground); --color-secondary: var(--secondary); --color-secondary-foreground: var(--secondary-foreground); --color-muted: var(--muted); --color-muted-foreground: var(--muted-foreground); --color-accent: var(--accent); --color-accent-foreground: var(--accent-foreground); --color-border: var(--border); --color-input: var(--input); --color-ring: var(--ring); --color-destructive: var(--destructive); }
